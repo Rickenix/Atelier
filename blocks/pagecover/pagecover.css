@@ -1,5 +1,5 @@
 .pagecover {
-  background: url(/img/first_block.png) 50% 50%/cover no-repeat;
+  background: url(../../img/first_block.png) 50% 50%/cover no-repeat;
     padding-top: 120px;
     padding-bottom: 200px;
     display: flex;
