@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: rgba(172, 165, 146, 1);
+}
+
+.root {
+  font-family: "Old Standard TT", serif;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgba(24, 21, 17, 1);
+}
+
+@media (max-width: 800px) {
+  .root {
+    font-size: 11px;
+    line-height: 15px;
+}
+}
+
+@media (max-width: 700px) {
+  .root {
+    font-size: 10px;
+    line-height: 13px;
+}
+}
+

@@ -1,0 +1,34 @@
+.inst-photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(75, 65, 54, 1);
+  padding: 20px 120px;
+}
+
+@media (max-width: 1200px) {
+  .inst-photos {
+    padding: 20px 80px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .inst-photos {
+    padding: 20px 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .inst-photos {
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 610px) {
+  .inst-photos {
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    gap: 10px;
+  }
+}
+

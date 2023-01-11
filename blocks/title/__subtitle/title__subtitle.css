@@ -1,0 +1,35 @@
+.title__subtitle {
+  color: rgba(255, 174, 43, 1);
+  text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: none;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .title__subtitle {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 655px) {
+  .title__subtitle {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .title__subtitle {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title__subtitle {
+    font-size: 25px;
+  }
+}
+

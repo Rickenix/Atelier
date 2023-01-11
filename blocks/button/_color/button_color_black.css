@@ -1,0 +1,12 @@
+.button_color_black {
+  color: rgba(255, 174, 43, 1);
+  background: rgba(24, 21, 17, 1);
+  border: 1px solid rgba(255, 174, 43, 1);
+  align-self: center;
+}
+
+.button_color_black:hover {
+  background-color:rgba(255, 174, 43, 1);
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}

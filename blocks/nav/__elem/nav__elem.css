@@ -1,0 +1,17 @@
+.nav__elem {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__elem > a {
+  color: rgba(255, 174, 43, .65); 
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__elem:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.nav__elem:hover > a {
+  color: rgba(255, 174, 43, 1); 
+}

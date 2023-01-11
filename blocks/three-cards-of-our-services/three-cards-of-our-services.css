@@ -1,0 +1,27 @@
+.three-cards-of-our-services {
+  padding: 80px;
+}
+
+@media (max-width: 900px) {
+  .three-cards-of-our-services {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .three-cards-of-our-services {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  .three-cards-of-our-services {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .three-cards-of-our-services {
+    padding: 0 10px 30px 10px;
+  }
+}

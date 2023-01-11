@@ -1,0 +1,9 @@
+.title__text_place_left {
+  align-self: flex-end;
+}
+
+@media (max-width: 655px) {
+  .title__text_place_left {
+    align-self: flex-start;
+  }
+}

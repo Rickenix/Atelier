@@ -1,0 +1,17 @@
+.other-information {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 1 50%;
+  gap: 1%;
+  text-transform: none;
+  color: rgba(255, 174, 43, 1);
+  max-width: 300px;
+  width: 100%;
+}
+
+@media (max-width: 560px) {
+  .other-information {
+    justify-content: flex-start;
+  }
+}

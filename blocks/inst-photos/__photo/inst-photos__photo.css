@@ -1,0 +1,41 @@
+@media (max-width: 1180px) {
+  .inst-photos__photo {
+    width: 200px;
+}
+}
+
+@media (max-width: 1090px) {
+  .inst-photos__photo {
+    width: 180px;
+}
+}
+
+@media (max-width: 1000px) {
+  .inst-photos__photo {
+    width: 160px;
+}
+}
+
+@media (max-width: 890px) {
+  .inst-photos__photo {
+    width: 150px;
+}
+}
+
+@media (max-width: 760px) {
+  .inst-photos__photo {
+    width: 140px;
+}
+}
+
+@media (max-width: 690px) {
+  .inst-photos__photo {
+    width: 120px;
+}
+}
+
+@media (max-width: 390px) {
+  .inst-photos__photo {
+    width: 100px;
+}
+}

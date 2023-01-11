@@ -1,0 +1,12 @@
+@media (max-width: 490px) {
+  .design__icon {
+    width: 40px;
+}
+}
+
+@media (max-width: 430px) {
+  .design__icon {
+    width: 30px;
+}
+}
+

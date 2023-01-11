@@ -1,0 +1,6 @@
+.icons-of-social-networks {
+  display: flex;
+  width: 100%;
+  max-width: 220px;
+  justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+.subscribe-block__convention {
+  font-size: 9px;
+  width: 40%;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .subscribe-block__convention {
+   width: 60%;
+  }
+}
+
+@media (max-width: 520px) {
+  .subscribe-block__convention {
+   width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .subscribe-block__convention {
+   width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .subscribe-block__convention {
+   width: 100%;
+  }
+}

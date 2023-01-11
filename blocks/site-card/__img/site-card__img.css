@@ -1,0 +1,58 @@
+.site-card__img {
+  flex: 0 1 auto;
+}
+
+@media (max-width: 829px) {
+  .site-card__img {
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 710px) {
+  .site-card__img {
+    max-width: 270px;
+  }
+}
+
+@media (max-width: 665px) {
+  .site-card__img {
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 645px) {
+  .site-card__img {
+    max-width: 240px;
+  }
+}
+
+
+@media (max-width: 605px) {
+  .site-card__img {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 565px) {
+  .site-card__img {
+    max-width: 210px;
+  }
+}
+
+@media (max-width: 545px) {
+  .site-card__img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 525px) {
+  .site-card__img {
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 360px) {
+  .site-card__img {
+    max-width: 260px;
+  }
+}

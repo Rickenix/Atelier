@@ -1,0 +1,25 @@
+.button-subscribe__decorative-button {
+  border: 1px solid rgba(75, 65, 54, 1);
+  background-color: rgba(24, 21, 17, 1);
+  width: 420px;
+  height: 60px;
+}
+
+@media (max-width: 500px) {
+  .button-subscribe__decorative-button {
+    width: 380px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 430px) {
+      .button-subscribe__decorative-button {
+        width: 360px;
+      }
+    }
+
+@media (max-width: 400px) {
+  .button-subscribe__decorative-button {
+    width: 300px;
+    }
+  }   

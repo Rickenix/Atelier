@@ -1,0 +1,28 @@
+.cards {
+  padding: 0;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+@media (max-width: 1184px) {
+  .cards {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 845px) {
+  .cards {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    padding-bottom: 5px;
+  }
+}

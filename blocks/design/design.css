@@ -1,0 +1,40 @@
+.design {
+  flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(75, 65, 54, 1);
+  justify-content: start;
+  padding: 60px 90px 75px 60px;
+}
+
+@media (max-width: 900px) {
+  .design {
+    padding: 50px 80px 65px 50px;
+}
+}
+
+@media (max-width: 800px) {
+  .design {
+    padding: 40px 70px 55px 40px;
+}
+}
+
+@media (max-width: 690px) {
+  .design {
+    padding: 25px 40px 25px 20px;
+}
+}
+
+@media (max-width: 480px) {
+  .design {
+    padding: 15px 25px 10px 10px;
+}
+}
+
+@media (max-width: 430px) {
+  .design {
+    padding: 10px;
+}
+}
+
+

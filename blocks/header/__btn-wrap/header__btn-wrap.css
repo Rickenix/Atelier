@@ -1,0 +1,10 @@
+.header__btn-wrap {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 540px) {
+  .header__btn-wrap {
+    gap: 20px;
+  }
+}

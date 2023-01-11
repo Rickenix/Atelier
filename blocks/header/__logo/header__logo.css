@@ -1,0 +1,19 @@
+.header__logo {
+  font-size: 22px;
+  line-height: 28px;
+  color: rgba(255, 174, 43, 1);
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__logo {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.design__text {
+  line-height: 26px;
+}
+
+@media (max-width: 800px) {
+  .design__text {
+    line-height: 20px;
+}
+}
+
+@media (max-width: 700px) {
+  .design__text {
+    line-height: 18px;
+}
+}
+
+@media (max-width: 600px) {
+  .design__text {
+    line-height: 15px;
+    margin: 0 auto;
+}
+}

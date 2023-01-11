@@ -1,0 +1,11 @@
+.template-pages {
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .template-pages {
+    padding-top: 40px;
+  }
+}
+
+

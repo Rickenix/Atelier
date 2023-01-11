@@ -1,0 +1,22 @@
+.pagecover__overhead {
+  color: rgba(255, 174, 43, 1);
+}
+
+@media (max-width: 768px) {
+  .pagecover__overhead {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .pagecover__overhead {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .pagecover__overhead {
+    font-size: 9px;
+  }
+}

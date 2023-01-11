@@ -1,0 +1,68 @@
+.python-image {
+  background: url(/img/python.png) 50% 50%/1395px no-repeat;
+  height: 475px;
+}
+
+@media (max-width: 1000px) {
+  .python-image {
+    height: 425px;
+  }
+}
+
+@media (max-width: 900px) {
+  .python-image {
+    background-size: 1200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .python-image {
+    background-size: 1005px;
+  }
+}
+
+@media (max-width: 768px) {
+  .python-image {
+    height: 395px;
+    background-size: 985px;
+  }
+}
+
+@media (max-width: 680px) {
+  .python-image {
+    background-size: 785px;
+  }
+}
+
+@media (max-width: 600px) {
+  .python-image {
+    height: 355px;
+    background-size: 745px;
+  }
+}
+
+@media (max-width: 525px) {
+  .python-image {
+    background-size: 655px;
+  }
+}
+
+@media (max-width: 470px) {
+  .python-image {
+    background-size: 555px;
+  }
+}
+
+@media (max-width: 425px) {
+  .python-image {
+    height: 325px;
+    background-size: 475px;
+  }
+}
+
+@media (max-width: 400px) {
+  .python-image {
+    height: 265px;
+  }
+}
+

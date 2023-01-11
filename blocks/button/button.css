@@ -1,0 +1,30 @@
+.button{
+  padding: 15px 25px;
+  box-sizing: border-box;
+  font-family: 'Old Standard TT';
+  font-size: 11px;
+  line-height: 22px;
+  text-transform: uppercase;
+  max-height: 52px;
+  height: 100%;
+}
+
+@media (max-width: 960px) {
+  .button {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 8px;
+    line-height: 12px;
+  }
+}

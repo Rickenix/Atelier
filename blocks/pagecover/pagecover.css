@@ -1,0 +1,31 @@
+.pagecover {
+  background: url(/img/first_block.png) 50% 50%/cover no-repeat;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .pagecover {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .pagecover {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .pagecover {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

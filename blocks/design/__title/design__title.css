@@ -1,0 +1,26 @@
+.design__title {
+  color: rgba(255, 174, 43, 1);
+  font-size: 29px;
+  line-height: 40px;
+  text-transform: none;
+}
+
+@media (max-width: 720px) {
+  .design__title {
+  font-size: 25px;
+}
+}
+
+@media (max-width: 600px) {
+  .design__title {
+  font-size: 20px;
+  line-height: 30px;
+}
+}
+
+@media (max-width: 500px) {
+  .design__title {
+  font-size: 17px;
+  margin: 0;
+}
+}

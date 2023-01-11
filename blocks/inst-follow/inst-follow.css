@@ -1,0 +1,34 @@
+.inst-follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  gap: 15px;
+}
+
+@media (max-width: 1400px) {
+  .inst-follow {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .inst-follow {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 890px) {
+  .inst-follow {
+    gap: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
+@media (max-width: 610px) {
+  .inst-follow {
+    flex: 1 0 100%;
+  }
+}

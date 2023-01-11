@@ -1,0 +1,43 @@
+.pagecover__title {
+  flex: 0 1 40%;
+  color: rgba(255, 255, 255, 1);
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: none;
+}
+
+@media (max-width: 900px) {
+  .pagecover__title {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pagecover__title {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .pagecover__title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 425px) {
+  .pagecover__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 360px) {
+  .pagecover__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
